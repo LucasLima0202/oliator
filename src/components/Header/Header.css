@@ -1,0 +1,12 @@
+.header{
+    background-color: #000000;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom:0.5px solid #c0c0c02c;
+}
+.header a img{
+    display: flex;
+    margin-left: 50%;
+}

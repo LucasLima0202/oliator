@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+.Box{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    gap: 0;
+    background-color: #ffffff;
+    border-radius:0px 0px 8px 8px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 10px 70px -20px, rgba(255, 255, 255, 0.3) 0px 20px 60px -30px;
+
+}
+.box-img{
+    margin: 0;
+    padding: 0;
+}
+.box-img img{
+    width: 12em;
+    height: 10em;
+    object-fit: cover;
+}
+
+.box-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2%;
+    border: 2px solid #ffffff;
+    border-radius:0px 0px 8px 8px;
+    background-color: #ffffff;
+}
+.Box h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+    padding-top: 3%;
+}
+
+.Box h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0;
+}
+
+.Box span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 4%;
+}
