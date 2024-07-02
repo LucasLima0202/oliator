@@ -90,4 +90,14 @@
   body {
     background-color: #111;
   }
+
+  @media only screen and (max-width: 800px) {
+    .box label{
+      font-size: 0.8em;
+
+    }
+    .rating{
+      width: 100%;
+    }
+  }
   

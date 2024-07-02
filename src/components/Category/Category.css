@@ -49,3 +49,16 @@
     padding-bottom: 1%;
     display: inline-block;
 }
+
+@media only screen and (max-width: 800px) {
+    .category h3 {
+      font-size: 1em;
+      margin-bottom: 5%;
+    }
+    .line{
+        margin-bottom: 9%;
+    }
+    .category article{
+        flex-direction: column;
+    }
+  }

@@ -10,7 +10,7 @@ import RankStart from '../RankStart'
 const Forms = (props) => {
 
 
-        
+
     const Platform = [
         'Steam',
         'Nitendo',
@@ -44,46 +44,53 @@ const Forms = (props) => {
         <section className='background'>
             <form className='forms' onSubmit={AutoSave} id='form' >
                 <h1>Fill in the recently completed game and rank the game to create the card</h1>
-                <TextInput 
-                label="Name" 
-                required={true} 
-                placeholder="Name of the Game"
-                value={name}
-                onChanging={value => setName(value)}
+                <TextInput
+                    label="Name"
+                    required={true}
+                    placeholder="Name of the Game"
+                    value={name}
+                    onChanging={value => setName(value)}
                 />
 
-                <Dropdown 
-                label="Plataform"
-                required={true} 
-                itens={Platform}
-                value={plataform}
-                onChanging={value => setPlataform(value)}
-                />   
+                <Dropdown
+                    label="Plataform"
+                    required={true}
+                    itens={Platform}
+                    value={plataform}
+                    onChanging={value => setPlataform(value)}
+                />
 
-                <TextInput 
-                label="Image" 
-                placeholder="Insert a URL of Game Cover"
-                value={image}
-                onChanging={value => setImage(value)} />
+                <TextInput
+                    label="Image"
+                    placeholder="Insert a URL of Game Cover"
+                    value={image}
+                    onChanging={value => setImage(value)} />
 
-                <RankStart 
-                value={rating}
-                onChanging={value => setRating(value)} />          
-               
-                
+                <RankStart
+                    value={rating}
+                    onChanging={value => setRating(value)} />
 
-                <Dropdown 
-                label="Category"
-                required={true} 
-                itens={props.nameofprop}
-                value={rank}
-                onChanging={value => setRank(value)}
+
+
+                <Dropdown
+                    label="Category"
+                    required={true}
+                    itens={props.nameofprop}
+                    value={rank}
+                    onChanging={value => setRank(value)}
                 />
 
                 <Button>
-                     Create a Card Rating
+                    Create a Card Rating
                 </Button>
             </form>
+            <div className='div-line'>
+                <h2 className='title-rank'>My List:</h2>
+
+                <span id='cover' className='line'></span>
+                <span>[ ! ] Fill out the form to start creating the rank list</span>
+            </div>
+
         </section>
     )
 }

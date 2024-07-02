@@ -2,7 +2,7 @@ import './Cover.css'
 
 const Cover = (props) => {
     return (
-        <div className='Box' id='cover'>
+        <div className='Box' >
             <div className='box-img'> 
                 <img src={props.image} alt={props.name} />
             </div>

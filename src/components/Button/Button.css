@@ -47,3 +47,8 @@
   box-shadow: none;
   transform: translateY(0);
 }
+@media only screen and (max-width: 800px) {
+  .button-28{
+  font-size: 0.8em;
+  }
+}

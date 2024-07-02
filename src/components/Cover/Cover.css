@@ -48,3 +48,10 @@
     font-size: 1.2em;
     padding-bottom: 4%;
 }
+
+@media only screen and (max-width: 800px) {
+    .Box{
+      margin-bottom: 10%;
+      margin-top: 10%;
+    }
+  }
